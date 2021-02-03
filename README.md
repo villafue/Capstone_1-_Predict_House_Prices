@@ -1,7 +1,7 @@
 ![cover_photo](https://raw.githubusercontent.com/villafue/Capstone_1-_Predict_House_Prices/master/Pictures/Music%20Icon%20Etsy%20Banner.png)
-# International Rock Climbing Recommendation System
+# Predicting the Price of Homes
 
-*The sport of rock climbing has been steadily increasing in popularity. From 2012-2017, the IBISWorld estimates that from average annual growth for the indoor climbing wall industry was [3.9% in the USA](https://www.ibisworld.com/industry-trends/specialized-market-research-reports/consumer-goods-services/sports-recreation/indoor-climbing-walls.html).  In 2015, it ranked 17th out of 111 out of the most popular sports in the United States ( Physical Activity Council and PHIT America). Yet, even with this growth in popularity, most of the international rock climbing websites still lack a rock climbing recommendation system. In this project, I will create a recommendation system for the 8a.nu website that will help climbers identify some unique international climbing objectives.*
+*In 2018 KPMG Global Proptech Survey, the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term." *
 
 ## 1. Data
 
