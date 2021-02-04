@@ -1,11 +1,13 @@
 ![cover_photo](https://github.com/villafue/Capstone_1-_Predict_House_Prices/blob/master/Pictures/Music%20Icon%20Etsy%20Banner.png)
 # Predicting the Price of Homes
 
-*[In the 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), almost 50% of the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term." Furthermore, in the [Deloitte 2021 CRE Outlook](https://www2.deloitte.com/us/en/insights/industry/financial-services/commercial-real-estate-outlook.html/#endnote-22), over half (56%) of the 200 commercial real estate leaders believed that digital transformation of the business could become a business imperative, and that the pandemic exposed shortcomings in their organizations’ digital capabilities. * 
+*[In the 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), almost 50% of the respondends believed that AI, Big Data, and Big Data Analysis, "Will have the biggest impact on the real estate industry in the long term." Furthermore, in the [Deloitte 2021 CRE Outlook](https://www2.deloitte.com/us/en/insights/industry/financial-services/commercial-real-estate-outlook.html/#endnote-22), over half (56%) of the 200 commercial real estate leaders, "Believed that digital transformation of the business could become a business imperative." In other words, there is a trend in real-estate towards harnessing and utilizing data science. 
+
+In this project, I will participate in a "contest" hosted by the ficticious company AREC to predict the price of homes. Furthermore, I will present recommendations to them based on my findings and next steps for application.* 
 
 ## 1. Data
 
-8a.nu is one the world’s largest international rock climbing websites. With over 4 million entries of climbs and ratings, this Kaggle webscraping project is a sufficient size to develop a good predictor model. To view the 8a.nu website, the original Kaggle four SQLite tables created by David Cohen, or the import report using the Kaggle API click on the links below:
+The Ames Housing dataset was compiled by Dean De Cock and it contains 80 features with almost 3,000 rows of data. It is also considered the contemporary to the often cited [Boston Housing dataset](https://www.kaggle.com/c/boston-housing).:
 
 > * [8a.nu website](https://www.8a.nu/)
 
