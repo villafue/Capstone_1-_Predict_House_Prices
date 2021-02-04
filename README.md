@@ -1,7 +1,7 @@
 ![cover_photo](https://github.com/villafue/Capstone_1-_Predict_House_Prices/blob/master/Pictures/Music%20Icon%20Etsy%20Banner.png)
 # Predicting the Price of Homes
 
-*[In the 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), almost 50% of the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term."*
+*[In the 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), almost 50% of the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term." Furthermore, in the [Deloitte 2021 CRE Outlook](https://www2.deloitte.com/us/en/insights/industry/financial-services/commercial-real-estate-outlook.html/#endnote-22), over half (56%) of the 200 commercial real estate leaders believed that digital transformation of the business could become a business imperative, and that the pandemic exposed shortcomings in their organizations’ digital capabilities. * 
 
 ## 1. Data
 
