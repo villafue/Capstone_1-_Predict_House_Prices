@@ -1,7 +1,7 @@
 ![cover_photo](https://raw.githubusercontent.com/villafue/Capstone_1-_Predict_House_Prices/master/Pictures/Music%20Icon%20Etsy%20Banner.png)
 # Predicting the Price of Homes
 
-*In 2018 KPMG Global Proptech Survey, the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term." *
+*[In 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), the respondends believed that AI, Big Data, and Big Data Analysis, "will have the biggest impact on the real estate industry in the long term."*
 
 ## 1. Data
 
