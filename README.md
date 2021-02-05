@@ -13,7 +13,7 @@ The Ames Housing dataset was compiled by Dean De Cock and it contains 80 feature
 
 > * [Kaggle Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview)
 
-> * [Data Import Report](https://github.com/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb/#import_packages)
+> * [Data Import Report](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb#import_packages)
 
 ## 2. Method
 
