@@ -31,9 +31,9 @@ In a regression problem, the task is to predict the dependent variable given a s
 
 [EDA Section](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb#exploratory_data_analysis)
 
-* The star-rating distributions all checked out to be normal. It is very common with explicit ratings to see a diminished number of low ratings.
+* I went through each of the 80 features and analyzed their pattern against the price of the homes.
 
-![](https://raw.githubusercontent.com/villafue/Capstone_1-_Predict_House_Prices/master/Pictures/Small%20Heatmap.png)
+![](https://raw.githubusercontent.com/villafue/Capstone_1-_Predict_House_Prices/master/Pictures/EDA_BsmtQual.png)
 
 ## 5. Algorithms & Machine Learning
 
