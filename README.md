@@ -9,11 +9,11 @@ In this project, I will participate in a "contest" hosted by the ficticious comp
 
 The Ames Housing dataset was compiled by Dean De Cock and it contains 80 features with almost 3,000 rows of data. It is also considered the contemporary to the often cited [Boston Housing dataset](https://www.kaggle.com/c/boston-housing).:
 
-> * [8a.nu website](https://www.8a.nu/)
+> * [Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project by Dean De Cock](http://jse.amstat.org/v19n3/decock.pdf)
 
-> * [Kaggle Dataset](https://www.kaggle.com/dcohen21/8anu-climbing-logbook)
+> * [Kaggle Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview)
 
-> * [Data Import Report](https://drive.google.com/open?id=1S4io5Nvz0lcnri_Lz9Mpa_TwLNeoSzGb)
+> * [Data Import Report](https://github.com/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb)
 
 ## 2. Method
 
