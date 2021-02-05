@@ -33,7 +33,7 @@ In a regression problem, the task is to predict the dependent variable given a s
 
 * The star-rating distributions all checked out to be normal. It is very common with explicit ratings to see a diminished number of low ratings.
 
-![](./6_README_files/star_counts.png)
+![](https://raw.githubusercontent.com/villafue/Capstone_1-_Predict_House_Prices/master/Pictures/Small%20Heatmap.png)
 
 ## 5. Algorithms & Machine Learning
 
