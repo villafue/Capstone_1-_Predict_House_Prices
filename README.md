@@ -3,9 +3,9 @@
 
 *[In the 2018 KPMG Global Proptech Survey](https://assets.kpmg/content/dam/kpmg/uk/pdf/2018/10/kpmg-global-proptech-survey-2018.pdf), almost 50% of the respondends believed that AI, Big Data, and Big Data Analysis, "Will have the biggest impact on the real estate industry in the long term." Furthermore, in the [Deloitte 2021 CRE Outlook](https://www2.deloitte.com/us/en/insights/industry/financial-services/commercial-real-estate-outlook.html/#endnote-22), over half (56%) of the 200 commercial real estate leaders, "Believed that digital transformation of the business could become a business imperative." In other words, there is a trend in real-estate towards harnessing and utilizing data science.* 
 
-[Full Notebook](https://drive.google.com/open?id=195wcooDtT2XhfpRXREWmLovm8XZPNymy)
+*In this project, I will participate in a "contest" hosted by the ficticious company AREC to predict the price of homes. Furthermore, I will present recommendations to them based on my findings and next steps for application. The link to the full notebook is below or feel free to read through the different sections.*
 
-In this project, I will participate in a "contest" hosted by the ficticious company AREC to predict the price of homes. Furthermore, I will present recommendations to them based on my findings and next steps for application.
+[Full Notebook](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb)
 
 ## 1. Data
 
@@ -15,31 +15,17 @@ The Ames Housing dataset was compiled by Dean De Cock and it contains 80 feature
 
 > * [Kaggle Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview)
 
-> * [Data Import Report](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb#import_packages)
+> * [Data Import Section](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb#import_packages)
 
 ## 2. Method
 
-There are three main types of recommenders used in practice today:
+This is a supervised machine learning problem and predictions will be made using regression analysis. 
 
-1. **Content-based filter:** Recommending future items to the user that have similar innate features with previously "liked" items. Basically, content-based relies on similarities between features of the items & needs good item profiles to function properly.
+## 3. Data Preparation 
 
-2. **Collaborative-based filter:** Recommending products based on a similar user that has already rated the product. Collaborative filtering relies on information from similar users, and it is important to have a large explicit user rating  base (doesn't work well for new customer bases).
+[Data Preparation Section](https://colab.research.google.com/github/villafue/Capstone_1-_Predict_House_Prices/blob/master/House_Price.ipynb#data_preparation)
 
-3. **Hybrid Method:** Leverages both content & collaborative based filtering. Typically, when a new user comes into the recommender, the content-based recommendation takes place. Then after interacting with the items a couple of times, the collaborative/ user based recommendation system will be utilized.
-
-![](./6_README_files/matrix_example.png)
-
-
-**WINNER:User-based collaborative filtering system** 
-
-
-I choose to work with a user-based collaborative filtering system. This made the most sense because half of the 4 million user-entered climbs had an explicit rating of how many stars the user would rate the climb. Unfortunately, the data did not have very detailed "item features". Every rock climbing route had an area, a difficulty grade, and a style of climbing (roped or none). This would not have been enough data to provide an accurate content-based recommendation. In the future, I would love to experiment using a hybrid system to help solve the problem of the cold-start-threshold.
-
-## 3. Data Cleaning 
-
-[Data Cleaning Report](https://drive.google.com/open?id=195wcooDtT2XhfpRXREWmLovm8XZPNymy)
-
-In a collaborative-filtering system there are only three columns that matter to apply the machine learning algorithms: the user, the item, and the explicit rating (see the example matrix above). I also had to clean & normalize all the reference information (location, difficulty grade, etc.) to the route so that my user could get a useful and informative recommendation.
+In a regression problem, the task is to predict the dependent variable given a set of independent features. The goal is measure how closely the predictions match the actual values. I had to clean and  I also had to clean & normalize all the reference information (location, difficulty grade, etc.) to the route so that my user could get a useful and informative recommendation.
 
 * **Problem 1:** This dataset is all user-entered information. There are a couple drop down options, but for the most part the user is able to completely make-up, or list something incorrectly. **Solution:** after normalizing & cleaning all the columns, I created a three-tier groupby system that I could then take the mode of each entry and fill in the column with that mode. For example: a route listed 12 times had the country Greece associated with it 11 times, but one person incorrectly listed it located in the USA. By grouping together three other indicator columns and then computing the mode of the country, I was able to catch and change some of the user-entered errors and increase the accuracy of my dataset.
 
